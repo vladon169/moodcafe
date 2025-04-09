@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MOOD COFFEE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #1e1c1c;
+      color: #fff;
+    }
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      color: #d4af37;
+      margin: 0;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      background: url('https://i.imgur.com/mFov5r8.jpeg') center/cover no-repeat;
+      color: #fff;
+      text-shadow: 0 0 5px #000;
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin: 0;
+    }
+    .hero p {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: #d4af37;
+      color: #111;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .menu-block {
+      margin: 30px 0;
+    }
+    .menu-block h3 {
+      color: #d4af37;
+    }
+    .menu-block ul {
+      list-style: none;
+      padding: 0;
+    }
+    .menu-block li {
+      margin: 5px 0;
+    }
+    .gallery img {
+      width: 250px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 30px;
+      margin-top: 50px;
+    }
+    footer a {
+      color: #d4af37;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MOOD COFFEE</h1>
+    <nav>
+      <a href="#about">О нас</a>
+      <a href="#menu">Меню</a>
+      <a href="#gallery">Галерея</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Кофе по настроению</h2>
+    <p>Найди вкус, который отражает твой день</p>
+    <a href="#menu" class="btn">Смотреть меню</a>
+  </section>
+
+  <section id="about">
+    <h2>О нас</h2>
+    <p>Мы — уютная кофейня в самом сердце города, где каждый напиток отражает твоё настроение. Приходи за вдохновением, теплом и вкусом.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Меню</h2>
+
+    <div class="menu-block">
+      <h3>Уют</h3>
+      <ul>
+        <li>Латте с карамелью — 3.50 €</li>
+        <li>Капучино с корицей — 3.00 €</li>
+      </ul>
+    </div>
+
+    <div class="menu-block">
+      <h3>Энергия</h3>
+      <ul>
+        <li>Эспрессо двойной — 2.50 €</li>
+        <li>Американо — 2.00 €</li>
+      </ul>
+    </div>
+
+    <div class="menu-block">
+      <h3>Счастье</h3>
+      <ul>
+        <li>Мокко с маршмеллоу — 4.00 €</li>
+        <li>Ванильный раф — 4.20 €</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Галерея</h2>
+    <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" alt="Чашка кофе на деревянном столе" />
+    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Зёрна кофе крупным планом" />
+    <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" alt="Латте-арт с сердечком" />
+  </section>
+
+  <footer id="contacts">
+    <h3>Контакты</h3>
+    <p>Нойбранденбург, Германия</p>
+    <p><a href="https://t.me/vladfreelancerr" target="_blank">Telegram</a></p>
+    <p>Instagram: @moodcoffee</p>
+  </footer>
+</body>
+</html>
